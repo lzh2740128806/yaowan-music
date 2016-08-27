@@ -309,7 +309,6 @@
 {
 	border-radius:10px;
 	transition:all 500ms;
-	cursor:pointer;
 }
 .listbox tr th img:hover
 {
