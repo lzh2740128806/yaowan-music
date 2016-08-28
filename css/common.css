@@ -164,6 +164,33 @@
 {
   margin: 10px 0;
 }
+.friendlink
+{
+	margin:0 auto;
+	width:580px;
+	color:#b1b3b9;
+}
+.friendlink h4
+{
+	display:inline-block;
+	padding:10px;
+	color:#b1b3b9;
+	font-size:12px;
+}
+ul.friendlink li
+{
+	text-align:center;
+	width:36px;
+	font-size:12px;
+}
+ul.friendlink li a
+{
+	color:#b1b3b9;
+}
+ul.friendlink li a:hover
+{
+	text-decoration:underline;
+}
 /*totop*/
 #totop
 {

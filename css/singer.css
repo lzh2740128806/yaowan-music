@@ -1,0 +1,121 @@
+﻿.content
+{
+	margin:0 auto;
+	width:1000px;
+}
+/*ct-nav*/
+.content .ct-nav
+{
+	float:left;
+	width:160px;
+	background:-webkit-linear-gradient(top,rgba(25,125,225,.4),rgba(0,0,0,0));
+	background:-webkit-gradient(linear,top,rgba(25,125,225,.3),rgba(0,0,0,0));
+	background:-moz-linear-gradient(top,rgba(25,125,225,.3),rgba(0,0,0,0));
+}
+.content .ct-nav>ul>li
+{
+	padding:20px 10px;
+}
+.content .ct-nav>ul>li h3
+{
+	color:#333;
+}
+.here,.content .ct-nav ul li ul li:hover
+{
+	height:28px;
+	border:1px solid #999;
+	border-radius:15px;
+	background-color:#9cf;
+	box-shadow:0 0 10px #fa6;
+}
+#here,.content .ct-nav ul li ul li a:hover
+{
+	width:118px;
+	color:#d84;
+	line-height:28px;
+}
+.content .ct-nav ul li ul li a
+{
+	display:block;
+	padding:0 10px;
+	width:120px;
+	height:30px;
+	line-height:30px;
+	color:#666;
+	font-size:12px;
+}
+/*ct-left,ct-right*/
+.content h2
+{
+	padding-top:10px;
+	text-align:center;
+	color:#d84;
+	text-shadow:1px 1px 4px #d84;
+}
+.ct-left,.ct-right
+{
+	margin:20px 0 50px;
+	float:left;
+	width:416px;
+}
+.ct-left
+{
+	border-right:4px solid #37a;
+}
+.ct-right
+{
+	padding:140px 0 104px;
+	border-left:4px solid #37a;
+}
+.ct-left li
+{
+	text-align:right;
+	margin:40px 0 20px 300px;
+	padding-right:2px;
+	width:140px;
+	border-top:4px solid #37a;
+	border-radius:82px 0 80px 0;
+	transform:rotate(-15deg);
+}
+.ct-right li
+{
+	padding-left:5px;
+	margin:40px 0 0 -26px;
+	width:140px;
+	border-top:4px solid #37a;
+	border-radius:0 82px 0 80px;
+	transform:rotate(15deg);
+	
+}
+.ct-left li a
+{
+	position:relative;
+	right:168px;
+	display:block;
+	width:160px;
+	border-bottom:2px solid #37a;
+	border-radius:80px 0 80px 0;
+	transform:rotate(15deg);
+}
+.ct-right li a
+{
+	position:relative;
+	left:148px;
+	display:block;
+	width:160px;
+	border-bottom:2px solid #37a;
+	border-radius:0 80px 0 80px;
+	transform:rotate(-15deg);
+}
+.content .ct-left img
+{
+	vertical-align:middle;
+	border-radius:80px 0 80px 0;
+	width:160px;
+}
+.content .ct-right img
+{
+	vertical-align:middle;
+	border-radius:0 80px 0 80px;
+	width:160px;
+}
